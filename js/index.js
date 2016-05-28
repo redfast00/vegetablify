@@ -27,7 +27,7 @@ $('document').ready(function() {
     $("#back-btn").click(function(){
         //This shows the inputbox
         $('#form-container').show(1000);
-        //This hides and deletes old answers
+        //This hides and deletes old answersq
         $('#answers').hide(1000);
         $("#answerlist").empty();
         $('<li/>').addClass('collection-header').append($('<h4/>').text("Vegetabled names")).appendTo($("#answerlist"));
