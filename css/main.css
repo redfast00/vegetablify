@@ -1,0 +1,12 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.brand-logo img {
+    height: 64px;
+}
+
+.title {
+    font-size: 16px;
+    font-size: 6.5vw;
+}

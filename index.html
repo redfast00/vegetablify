@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Vegetablify</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="https://github.com/redfast00" class="brand-logo left hide-on-small-only">
+                <img src="assets/logo.png">
+            </a>
+            <ul id="nav-mobile" class="right">
+                <li class="active"><a href="index.html">Vegetablify</a></li>
+                <li><a href="about.html">About<i class="material-icons left">info</i></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h1 class="title">Vegetablify your name</h1>
+        <div id='form-container'>
+            <form id="nameform">
+                <label for="name">First name</label>
+                <input id="name" type="text" value="Laura">
+                <button class="btn waves-effect waves-light" type="submit" name="action">Submit<i class="material-icons right">send</i>
+                </button>
+            </form>
+        </div>
+        <div id="answers" style="display: none">
+            <ul class="collection with-header" id="answerlist">
+                <li class="collection-header">
+                    <h4>Vegetabled names</h4></li>
+            </ul>
+            <button class="btn waves-effect waves-light red" id="back-btn">Back</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
