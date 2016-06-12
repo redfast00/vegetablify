@@ -10,3 +10,10 @@ body {
     font-size: 16px;
     font-size: 6.5vw;
 }
+[data-i18n]::before {
+   content: attr(data-i18n);
+}
+/* Dutch */
+[data-i18n-nl]:lang(nl)::before {
+   content: attr(data-i18n-nl);
+}
